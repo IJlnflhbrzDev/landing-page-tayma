@@ -1,0 +1,143 @@
+body{
+    max-width: 820px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.text-larger{
+    font-size: larger;
+}
+.top-parent-title {
+    background-color: #3B3838;
+    color: white ;
+
+}
+
+// .wavess{
+//     width: 100%;
+//     margin-top: -50px;
+
+//     position: relative;
+//     z-index: -1;
+//     top: -47px;
+// }
+h1.top-judul {
+  font-size: 90px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  }
+  p.top-description{
+    color: #EEEFF1;
+    line-height: 1.7;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+
+  }
+  h1 {
+    font-family: 'Oswald', sans-serif;
+  }
+.custom-jumbotron{
+    position: relative;
+    // top: -142px;
+    // z-index: -2;
+    .absolute-text{
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 15%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .section-testimonial {
+        .row {
+            .col-12 {
+                width: 50% !important;
+            }
+        }
+    }
+
+    .image-star {
+        img {
+            width: 100% !important;
+        }
+
+    }
+    .section-cta{
+        .text-center {
+            text-align: start !important;
+        }
+        .btn{
+            margin-top: 10px;
+            width: 100%;
+            font-size: 18px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 552px) {
+    .promo-harga{
+        img{ 
+        width: 100%;       
+        }
+    }
+    .absolute-text{
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0  !important;
+    }
+    body{
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+    .section-testimonial {
+        .row {
+            .col-12 {
+                width: 100% !important;
+            }
+        }
+    }
+
+    
+    .custom-jumbotron{
+        .p-5{
+            padding:  0!important;
+        }
+    }
+    
+    .section-cta{
+        .text-center {
+            text-align: start !important;
+        }
+        .btn{
+            margin-top: 10px;
+            width: 100%;
+            font-size: 18px !important;
+        }
+    }
+    .mobile-bg-white {
+        background-color: white;
+    }
+}
+.section-promotion{
+background-color: #3B3838;
+color: white;
+svg{
+    color: white ;
+}
+
+ul {
+    li{
+        font-size: 17px;
+    }
+}
+}
+
