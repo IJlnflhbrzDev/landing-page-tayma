@@ -5,6 +5,7 @@
     loop:true,
     margin:10,
     responsiveClass:true,
+    lazyLoad: true , 
     responsive:{
         0:{
             items:2,
